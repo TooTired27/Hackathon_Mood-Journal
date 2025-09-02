@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Journal 🌈</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>🌻 My Mood Journal</h1>
+        <p>Write how you're feeling today. I'm here to listen 💖</p>
+
+        <textarea id="journalEntry" placeholder="Today I felt..."></textarea>
+        <button onclick="analyzeMood()">Save Entry</button>
+
+        <div id="result"></div>
+
+        <canvas id="moodChart"></canvas>
+
+        <div id="pastEntries">
+            <h2>📖 Past Entries</h2>
+            <ul id="entriesList"></ul>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

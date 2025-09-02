@@ -1,0 +1,79 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+    color: #5a5a5a;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ff6b6b;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #ffc3a0;
+}
+
+button {
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #ff8e8e;
+}
+
+#result {
+    margin: 20px 0;
+    font-weight: bold;
+    color: #ff6b6b;
+}
+
+#pastEntries {
+    margin-top: 40px;
+}
+/* styling for payment */
+.premium-section {
+    background: linear-gradient(135deg, #ff6b6b, #ff8e8e);
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px 0;
+    color: white;
+    text-align: center;
+}
+
+.premium-section button {
+    background: white;
+    color: #ff6b6b;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.premium-section button:hover {
+    background: #f8f9fa;
+    transform: translateY(-2px);
+}
